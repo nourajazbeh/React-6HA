@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Main from './components/Main';
 import { ThemeProvider } from './context/ThemeContext';
-import './App.css';
+import './index.css'; 
 
 const App = () => {
   return (
@@ -18,3 +18,4 @@ const App = () => {
 };
 
 export default App;
+
